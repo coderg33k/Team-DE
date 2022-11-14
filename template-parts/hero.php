@@ -1,3 +1,4 @@
 <section class="HeroSection">
-<img src="http://teamde.local/wp-content/uploads/2022/11/Cyber-security-1.jpeg" alt="">
+    <img src="http://teamde.local/wp-content/uploads/2022/11/Cyber-security-1.jpeg" alt="">
+    <div class="centered">CYBERSECURITY</div>
 </section>

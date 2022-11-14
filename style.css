@@ -728,10 +728,21 @@ textarea {
   background-color: aquamarine;
   background: url("http://teamde.local/wp-content/uploads/2022/11/Cyber-security-1.jpeg");
   position: center;
+  /* Centered text */
 }
 .HeroSection img {
   width: 100%;
   height: 400px;
+}
+.HeroSection .centered {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 100px;
+  font-weight: bolder;
+  text-shadow: 5px;
 }
 
 /* Comments
