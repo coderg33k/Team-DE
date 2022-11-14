@@ -722,10 +722,16 @@ textarea {
   margin: 0 0 1.5em;
 }
 
-section {
-  height: 500px;
+.HeroSection {
+  height: 400px;
   width: 100%;
   background-color: aquamarine;
+  background: url("http://teamde.local/wp-content/uploads/2022/11/Cyber-security-1.jpeg");
+  position: center;
+}
+.HeroSection img {
+  width: 100%;
+  height: 400px;
 }
 
 /* Comments
