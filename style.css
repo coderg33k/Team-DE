@@ -745,6 +745,28 @@ textarea {
   text-shadow: 5px;
 }
 
+.CyberSection h2 {
+  margin: 20px 0px 15px 20px;
+}
+.CyberSection .cyberseccopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.CyberSection .cyberseccopy img {
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.CyberSection .cyberseccopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.SolutionSection img {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
