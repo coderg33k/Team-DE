@@ -761,10 +761,21 @@ textarea {
   font-size: 18px;
 }
 
-.SolutionSection img {
-  float: right;
+.SolutionSection h2 {
+  margin: 20px 0px 15px 0px;
+  text-align: right;
+}
+.SolutionSection .solutionseccopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.SolutionSection .solutionseccopy img {
   border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
+  margin: 20px 0px 15px 0px;
+}
+.SolutionSection .solutionseccopy p {
+  padding: 20px;
+  font-size: 18px;
 }
 
 /* Comments

@@ -1,7 +1,18 @@
 .SolutionSection{
-    img {
-        float: right;
+    h2 {
+      margin: 20px 0px 15px 0px;
+      text-align: right
+    }
+    .solutionseccopy{
+      display: flex;
+      justify-content: space-evenly;
+      img {
         border: 1px dotted black;
-        margin: 0px 0px 15px 20px;
+        margin: 20px 0px 15px 0px;
       }
+        p {
+        padding: 20px;
+        font-size: 18px;
+      }
+    }
 }
