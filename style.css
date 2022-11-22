@@ -778,6 +778,22 @@ textarea {
   font-size: 18px;
 }
 
+.ResourceSection h2 {
+  margin: 20px 0px 15px 20px;
+}
+.ResourceSection .resourcecopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ResourceSection .resourcecopy img {
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.ResourceSection .resourcecopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
