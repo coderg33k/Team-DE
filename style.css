@@ -771,7 +771,7 @@ textarea {
 }
 .SolutionSection .solutionseccopy img {
   border: 1px dotted black;
-  margin: 20px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
 }
 .SolutionSection .solutionseccopy p {
   padding: 20px;
@@ -790,6 +790,23 @@ textarea {
   margin: 0px 0px 15px 20px;
 }
 .ResourceSection .resourcecopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.MissionSection h2 {
+  margin: 20px 0px 15px 0px;
+  text-align: right;
+}
+.MissionSection .missionseccopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.MissionSection .missionseccopy img {
+  border: 1px dotted black;
+  margin: 0px 0px 15px 0px;
+}
+.MissionSection .missionseccopy p {
   padding: 20px;
   font-size: 18px;
 }

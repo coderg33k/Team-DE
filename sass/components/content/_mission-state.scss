@@ -1,0 +1,21 @@
+.MissionSection{
+    h2 {
+      margin: 20px 0px 15px 0px;
+      text-align: right
+    }
+    .missionseccopy{
+      display: flex;
+      justify-content: space-evenly;
+      img {
+        border: 1px dotted black;
+        margin: 0px 0px 15px 0px;
+      }
+        p {
+        padding: 20px;
+        font-size: 18px;
+      }
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 768px) {}
+@media screen and (max-width: 769px) and (min-width: 1024px) {}
+@media screen and (max-width: 1025px) and (min-width: 1400px) {}
