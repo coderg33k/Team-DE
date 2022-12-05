@@ -746,7 +746,7 @@ textarea {
 }
 
 .CyberSection h2 {
-  margin: 20px 0px 15px 20px;
+  margin: 20px 20px 0px 20px;
 }
 .CyberSection .cyberseccopy {
   display: flex;
@@ -754,15 +754,47 @@ textarea {
 }
 .CyberSection .cyberseccopy img {
   border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
+  margin: 20px 20px 20px 20px;
 }
 .CyberSection .cyberseccopy p {
   padding: 20px;
   font-size: 18px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .cyberseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cyberseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .cyberseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
 .SolutionSection h2 {
-  margin: 20px 0px 15px 0px;
+  margin: 20px 20px 0px 20px;
   text-align: right;
 }
 .SolutionSection .solutionseccopy {
@@ -771,13 +803,48 @@ textarea {
 }
 .SolutionSection .solutionseccopy img {
   border: 1px dotted black;
-  margin: 0px 0px 15px 0px;
+  margin: 20px 20px 20px 20px;
 }
 .SolutionSection .solutionseccopy p {
   padding: 20px;
   font-size: 18px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .solutionseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+  .solutionseccopy p {
+    order: 2;
+  }
+  .solutionseccopy img {
+    order: 1;
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .solutionseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .solutionseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
 .ResourceSection h2 {
   margin: 20px 0px 15px 20px;
 }
@@ -794,23 +861,90 @@ textarea {
   font-size: 18px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .resourcecopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .resourcecopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .resourcecopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
 .MissionSection h2 {
-  margin: 20px 0px 15px 0px;
+  margin: 20px 20px 0px 20px;
   text-align: right;
 }
 .MissionSection .missionseccopy {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: column;
 }
 .MissionSection .missionseccopy img {
   border: 1px dotted black;
-  margin: 0px 0px 15px 0px;
+  margin: 20px 20px 20px 20px;
 }
 .MissionSection .missionseccopy p {
   padding: 20px;
   font-size: 18px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .missionseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+  .missionseccopy p {
+    order: 2;
+  }
+  .missionseccopy img {
+    order: 1;
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .missionseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .missionseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
 /* Comments
 --------------------------------------------- */
 .comment-content a {

@@ -1,6 +1,6 @@
 .SolutionSection{
     h2 {
-      margin: 20px 0px 15px 0px;
+      margin: 20px 20px 0px 20px;
       text-align: right
     }
     .solutionseccopy{
@@ -8,7 +8,7 @@
       justify-content: space-evenly;
       img {
         border: 1px dotted black;
-        margin: 0px 0px 15px 0px;
+        margin: 20px 20px 20px 20px;
       }
         p {
         padding: 20px;
@@ -16,6 +16,42 @@
       }
     }
 }
-@media screen and (max-width: 375px) and (min-width: 768px) {}
-@media screen and (max-width: 769px) and (min-width: 1024px) {}
-@media screen and (max-width: 1025px) and (min-width: 1400px) {}
+@media screen and (min-width: 375px) and (max-width: 768px){
+  .solutionseccopy{
+    display:flex;
+    flex-direction:column;
+    background-color: olive;
+    p{
+      order: 2;
+    }
+    img{
+      order: 1;
+      border: 1px dotted black;
+      margin: 20px 20px 20px 20px;
+    }
+  }
+       // .solutionseccopy img:nth-child(1){
+      //   order: 1;
+      // }
+      // .solutionseccopy p:nth-child(2){
+      //   order: 2;
+      // }
+    }
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .solutionseccopy{
+    background-color: blue;
+  }
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px){
+  .solutionseccopy{
+    background-color: tan;
+  }
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}

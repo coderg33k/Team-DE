@@ -15,6 +15,33 @@
       }
     }
 }
-@media screen and (max-width: 375px) and (min-width: 768px) {}
-@media screen and (max-width: 769px) and (min-width: 1024px) {}
-@media screen and (max-width: 1025px) and (min-width: 1400px) {}
+@media screen and (min-width: 375px) and (max-width: 768px){
+  .resourcecopy{
+    display:flex;
+    flex-direction:column;
+    background-color: olive;
+   }
+   img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+.resourcecopy{
+  background-color: blue;
+  }
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px){
+  .resourcecopy{
+    background-color: tan;
+    }
+    img {
+      border: 1px dotted black;
+      margin: 20px 20px 20px 20px;
+    }
+}
