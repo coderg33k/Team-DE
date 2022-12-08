@@ -740,9 +740,9 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   color: red;
-  font-size: 100px;
+  font-size: 5vw;
   font-weight: bolder;
-  text-shadow: 5px;
+  -webkit-text-stroke: 3px yellow;
 }
 
 .CyberSection h2 {
@@ -768,9 +768,15 @@ textarea {
     background-color: olive;
   }
 
+  h2 {
+    text-align: left;
+  }
+
   img {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -811,15 +817,19 @@ textarea {
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-  .solutionseccopy {
+  .SolutionSection h2 {
+    margin: 20px 20px 0px 20px;
+    text-align: left;
+  }
+  .SolutionSection .solutionseccopy {
     display: flex;
     flex-direction: column;
     background-color: olive;
   }
-  .solutionseccopy p {
+  .SolutionSection .solutionseccopy p {
     order: 2;
   }
-  .solutionseccopy img {
+  .SolutionSection .solutionseccopy img {
     order: 1;
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
@@ -911,15 +921,19 @@ textarea {
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-  .missionseccopy {
+  .MissionSection h2 {
+    margin: 20px 20px 0px 20px;
+    text-align: left;
+  }
+  .MissionSection .missionseccopy {
     display: flex;
     flex-direction: column;
     background-color: olive;
   }
-  .missionseccopy p {
+  .MissionSection .missionseccopy p {
     order: 2;
   }
-  .missionseccopy img {
+  .MissionSection .missionseccopy img {
     order: 1;
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;

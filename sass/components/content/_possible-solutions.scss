@@ -1,55 +1,66 @@
-.SolutionSection{
-    h2 {
-      margin: 20px 20px 0px 20px;
-      text-align: right
-    }
-    .solutionseccopy{
-      display: flex;
-      justify-content: space-evenly;
-      img {
-        border: 1px dotted black;
-        margin: 20px 20px 20px 20px;
-      }
-        p {
-        padding: 20px;
-        font-size: 18px;
-      }
-    }
-}
-@media screen and (min-width: 375px) and (max-width: 768px){
-  .solutionseccopy{
-    display:flex;
-    flex-direction:column;
-    background-color: olive;
-    p{
-      order: 2;
-    }
-    img{
-      order: 1;
+.SolutionSection {
+  h2 {
+    margin: 20px 20px 0px 20px;
+    text-align: right
+  }
+
+  .solutionseccopy {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
       border: 1px dotted black;
       margin: 20px 20px 20px 20px;
     }
-  }
-       // .solutionseccopy img:nth-child(1){
-      //   order: 1;
-      // }
-      // .solutionseccopy p:nth-child(2){
-      //   order: 2;
-      // }
+
+    p {
+      padding: 20px;
+      font-size: 18px;
     }
-@media screen and (min-width: 769px) and (max-width: 1024px){
-  .solutionseccopy{
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .SolutionSection {
+    h2 {
+      margin: 20px 20px 0px 20px;
+      text-align: left;
+    }
+
+    .solutionseccopy {
+      display: flex;
+      flex-direction: column;
+      background-color: olive;
+
+      p {
+        order: 2;
+      }
+
+      img {
+        order: 1;
+        border: 1px dotted black;
+        margin: 20px 20px 20px 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .solutionseccopy {
     background-color: blue;
   }
+
   img {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1400px){
-  .solutionseccopy{
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .solutionseccopy {
     background-color: tan;
   }
+
   img {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
