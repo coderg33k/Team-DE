@@ -872,7 +872,15 @@ textarea {
 }
 
 .resourcecard {
-  display: flex;
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.resourcecard .container {
+  width: 300px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
@@ -886,6 +894,18 @@ textarea {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
   }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .resourcecopy {
@@ -896,6 +916,18 @@ textarea {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
   }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
   .resourcecopy {
@@ -905,6 +937,18 @@ textarea {
   img {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
+  }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
   }
 }
 .MissionSection h2 {

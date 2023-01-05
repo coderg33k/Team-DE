@@ -1,51 +1,91 @@
-.ResourceSection{
-    h2 {
-        margin: 20px 0px 15px 20px;
-    }
-    .resourcecopy{
-        display: flex;
-        justify-content: space-evenly;
-        img {
-        border: 1px dotted black;
-        margin: 20px 20px 20px 20px;
-      }
-        p {
-        padding: 20px;
-        font-size: 18px;
-      }
-    }
+.ResourceSection {
+  h2 {
+    margin: 20px 0px 15px 20px;
   }
-  .resourcecard {
+  .resourcecopy {
     display: flex;
-
-  }
-@media screen and (min-width: 375px) and (max-width: 768px){
-  .resourcecopy{
-    display:flex;
-    flex-direction:column;
-    background-color: olive;
-   }
-   img {
-    border: 1px dotted black;
-    margin: 20px 20px 20px 20px;
+    justify-content: space-evenly;
+    img {
+      border: 1px dotted black;
+      margin: 20px 20px 20px 20px;
+    }
+    p {
+      padding: 20px;
+      font-size: 18px;
+    }
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px){
-.resourcecopy{
-  background-color: blue;
+.resourcecard {
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 50px 0px;
+  .container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .resourcecopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
   }
   img {
     border: 1px dotted black;
     margin: 20px 20px 20px 20px;
   }
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+    .container {
+      width: 300px;
+    }
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .resourcecopy {
+    background-color: blue;
+  }
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+    .container {
+      width: 300px;
+    }
+  }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1400px){
-  .resourcecopy{
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .resourcecopy {
     background-color: tan;
+  }
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+    .container {
+      width: 300px;
     }
-    img {
-      border: 1px dotted black;
-      margin: 20px 20px 20px 20px;
-    }
+  }
 }
