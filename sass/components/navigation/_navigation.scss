@@ -280,7 +280,7 @@
 	.site-header {
 	  height: 60px;
 	  width: 100%;
-	  background-color: #fff;
+	  background-color:green;
 	  position: sticky;
 	  top: 0;
 	  z-index: 3;
@@ -304,19 +304,25 @@
   
 	.menu-toggle {
 	  display: none;
+	
+	
 	}
   
 	.main-navigation ul {
 	  display: flex;
 	  justify-content: flex-end;
+	
 	}
   
 	.main-navigation a {
 	  line-height: 1.8em;
+	   
 	}
   
 	.hamburger {
 	  display: none;
+	   text-align: right;
+
 	}
   
 	.main-navigation .donate-now a {

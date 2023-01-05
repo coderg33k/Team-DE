@@ -838,7 +838,7 @@ textarea {
   .site-header {
     height: 60px;
     width: 100%;
-    background-color: #fff;
+    background-color: green;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -867,6 +867,7 @@ textarea {
   }
   .hamburger {
     display: none;
+    text-align: right;
   }
   .main-navigation .donate-now a {
     width: 160px;
@@ -905,37 +906,37 @@ textarea {
   flex: 1 0 50%;
 }
 
-footer {
+.footer {
   text-align: center;
 }
-footer .fa-envelope {
+.footer .fa-envelope {
   color: #fff;
 }
-footer .fa-envelope:hover {
+.footer .fa-envelope:hover {
   color: blue;
 }
-footer .fa-envelope:active {
+.footer .fa-envelope:active {
   color: pink;
 }
-footer .fa-github {
+.footer .fa-github {
   color: #fff;
 }
-footer .fa-github:hover {
+.footer .fa-github:hover {
   color: blue;
 }
-footer .fa-github:active {
+.footer .fa-github:active {
   color: pink;
 }
-footer .fa-shield-halved {
+.footer .fa-shield-halved {
   color: #fff;
 }
-footer .fa-shield-halved:hover {
+.footer .fa-shield-halved:hover {
   color: blue;
 }
-footer .fa-shield-halved:active {
+.footer .fa-shield-halved:active {
   color: pink;
 }
-footer .footerBox, footer socialMedia {
+.footer .footerBox, .footer socialMedia {
   padding: 10px;
 }
 
