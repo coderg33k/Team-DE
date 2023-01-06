@@ -1,1 +1,16 @@
+.team-card-container {
+display:flex;
+justify-content:center;
+    align-items:center;
 
+.main-card {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    img {
+border-radius: 50%;
+    }
+
+}
+}
