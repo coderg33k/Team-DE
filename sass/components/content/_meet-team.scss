@@ -8,9 +8,26 @@ justify-content:center;
     justify-content:center;
     align-items:center;
     flex-direction: column;
+    margin: 0, 0, 0, 0;
+    padding:;
+
     img {
 border-radius: 50%;
-    }
+    
+}
+
+
+
+// new
+body {
+  font-family: tahoma;
+  height: 100vh;
+  background-image: url(https://picsum.photos/g/3000/2000);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
 
 }
 }

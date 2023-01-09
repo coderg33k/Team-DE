@@ -977,6 +977,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0, 0, 0, 0;
 }
 .team-card-container .main-card img {
   border-radius: 50%;
