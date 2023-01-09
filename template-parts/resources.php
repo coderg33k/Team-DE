@@ -6,8 +6,8 @@
   </div>
 </section>
 <section class="resourcecard">
-  <?php get_template_part('template-parts/multi-card')?>
-  <?php get_template_part('template-parts/multi-card')?>
-  <?php get_template_part('template-parts/multi-card')?>
-  <?php get_template_part('template-parts/multi-card')?>
+  <?php get_template_part('template-parts/multi-card') ?>
+  <?php get_template_part('template-parts/multi-card') ?>
+  <?php get_template_part('template-parts/multi-card') ?>
+  <?php get_template_part('template-parts/multi-card') ?>
 </section>
