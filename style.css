@@ -936,8 +936,9 @@ textarea {
 .footer .fa-shield-halved:active {
   color: pink;
 }
-.footer .footerBox, .footer socialMedia {
-  padding: 10px;
+.footer .footerBox {
+  padding: auto 0 0 0;
+  align-items: center;
 }
 
 /* Posts and pages
@@ -977,10 +978,20 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0, 0, 0, 0;
+  margin: 20px 20px 20 20;
+  padding: 20px;
 }
 .team-card-container .main-card img {
   border-radius: 50%;
+}
+.team-card-container .main-card body {
+  font-family: tahoma;
+  height: 100vh;
+  background-image: url(https://picsum.photos/g/3000/2000);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
 
 /* Comments
