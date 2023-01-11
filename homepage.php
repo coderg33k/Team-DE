@@ -15,6 +15,5 @@
 <?php get_template_part('template-parts/mission-state')?>
 <?php get_template_part('template-parts/meet-team')?>
 <?php get_template_part('template-parts/contact')?>
-<?php get_template_part('template-parts/branding')?>
 
 <?php get_footer(); ?>
