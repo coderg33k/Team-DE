@@ -627,7 +627,7 @@ textarea {
 /* Website Colors */
 /* Website Typography */
 .site-header {
-  height: 60px;
+  height: 70px;
   width: 100%;
   background-color: yellow;
   position: sticky;
@@ -636,8 +636,8 @@ textarea {
 }
 .site-header .site-branding {
   float: left;
-  margin: 20px -5px;
-  height: 20px;
+  margin: 10px -5px;
+  height: 10px;
   width: 175px;
   border-radius: 16px;
   padding-left: 25px;
@@ -813,11 +813,13 @@ textarea {
   .menu-toggle,
   .main-navigation .toggled ul {
     display: block;
+    float: right;
   }
   .menu-toggle {
     margin-top: 5px;
     background-color: transparent;
-    border: none;
+    border: solid;
+    border-color: #000000;
   }
   .main-navigation.toggled ul {
     display: flex;
@@ -846,7 +848,7 @@ textarea {
   .site-header .site-branding {
     float: left;
     margin: 20px 25px;
-    height: 20px;
+    height: 10px;
     width: 137px;
     border-radius: 16px;
   }
@@ -867,7 +869,6 @@ textarea {
   }
   .hamburger {
     display: none;
-    text-align: right;
   }
   .main-navigation .donate-now a {
     width: 160px;

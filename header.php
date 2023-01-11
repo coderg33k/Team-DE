@@ -33,7 +33,7 @@
 <div id="page" class="site">
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'Team-DE' ); ?></a>
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<div style="height=10px width=10px" class="site-branding">
 			<?php
 			the_custom_logo(); 
 				?>
