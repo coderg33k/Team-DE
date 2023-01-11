@@ -722,12 +722,291 @@ textarea {
   margin: 0 0 1.5em;
 }
 
-section {
-  height: 500px;
+.HeroSection {
+  height: 400px;
   width: 100%;
   background-color: aquamarine;
+  background: url("http://teamde.local/wp-content/uploads/2022/11/Cyber-security-1.jpeg");
+  position: center;
+  /* Centered text */
+}
+.HeroSection img {
+  width: 100%;
+  height: 400px;
+}
+.HeroSection .centered {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 5vw;
+  font-weight: bolder;
+  -webkit-text-stroke: 3px yellow;
 }
 
+.CyberSection h2 {
+  margin: 20px 20px 0px 20px;
+}
+.CyberSection .cyberseccopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.CyberSection .cyberseccopy img {
+  border: 1px dotted black;
+  margin: 20px 20px 20px 20px;
+}
+.CyberSection .cyberseccopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .cyberseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cyberseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .cyberseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+.SolutionSection h2 {
+  margin: 20px 20px 0px 20px;
+  text-align: right;
+}
+.SolutionSection .solutionseccopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.SolutionSection .solutionseccopy img {
+  border: 1px dotted black;
+  margin: 20px 20px 20px 20px;
+}
+.SolutionSection .solutionseccopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .SolutionSection h2 {
+    margin: 20px 20px 0px 20px;
+    text-align: left;
+  }
+  .SolutionSection .solutionseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+  .SolutionSection .solutionseccopy p {
+    order: 2;
+  }
+  .SolutionSection .solutionseccopy img {
+    order: 1;
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .solutionseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .solutionseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+.ResourceSection h2 {
+  margin: 20px 0px 15px 20px;
+}
+.ResourceSection .resourcecopy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ResourceSection .resourcecopy img {
+  border: 1px dotted black;
+  margin: 20px 20px 20px 20px;
+}
+.ResourceSection .resourcecopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.resourcecard {
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.resourcecard .container {
+  width: 300px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .resourcecopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .resourcecopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .resourcecopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .resourcecard {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .resourcecard .container {
+    width: 300px;
+  }
+}
+.MissionSection h2 {
+  margin: 20px 20px 0px 20px;
+  text-align: right;
+}
+.MissionSection .missionseccopy {
+  display: flex;
+  justify-content: column;
+}
+.MissionSection .missionseccopy img {
+  border: 1px dotted black;
+  margin: 20px 20px 20px 20px;
+}
+.MissionSection .missionseccopy p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .MissionSection h2 {
+    margin: 20px 20px 0px 20px;
+    text-align: left;
+  }
+  .MissionSection .missionseccopy {
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+  }
+  .MissionSection .missionseccopy p {
+    order: 2;
+  }
+  .MissionSection .missionseccopy img {
+    order: 1;
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .missionseccopy {
+    background-color: blue;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .missionseccopy {
+    background-color: tan;
+  }
+
+  img {
+    border: 1px dotted black;
+    margin: 20px 20px 20px 20px;
+  }
+}
 /* Comments
 --------------------------------------------- */
 .comment-content a {
